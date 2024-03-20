@@ -1,5 +1,5 @@
 import numpy as np
-cap = cv2.VideoCapture("C://Users//NIVEDITHA//Desktop//supraaa//car.mp4")
+cap = cv2.VideoCapture("C://Users//kaushal//Desktop//supraaa//car.mp4")
 if (cap.isOpened()== False):
     print("Error opening video file")
 while(cap.isOpened()):
