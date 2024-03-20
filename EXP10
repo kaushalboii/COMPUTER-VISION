@@ -1,5 +1,5 @@
 import cv2
-path = "C://Users//NIVEDITHA//Desktop//supraaa//supra.jpg"
+path = "C://Users//kaushal//Desktop//supraaa//supra.jpg"
 src = cv2.imread(path)
 window_name = 'Image'
 image = cv2.rotate(src, cv2.ROTATE_90_COUNTERCLOCKWISE)
